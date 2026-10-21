@@ -7,6 +7,7 @@ By default this prints only header info (IP/TCP/UDP/etc).
 Optionally saves captured packets to a pcap file and can show a short payload preview.
 """
 
+import utils.session
 import argparse
 import datetime
 from scapy.all import sniff, wrpcap, IP, IPv6, TCP, UDP, Ether, Raw
