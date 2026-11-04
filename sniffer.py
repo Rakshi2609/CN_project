@@ -7,6 +7,8 @@ By default this prints only header info (IP/TCP/UDP/etc).
 Optionally saves captured packets to a pcap file and can show a short payload preview.
 """
 
+import utils.http_session
+import utils.transport
 import utils.session
 import argparse
 import datetime
